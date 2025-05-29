@@ -1,10 +1,10 @@
-# 🛠️ Synology NAS – User Access Simulation Lab
+# 💽 Synology NAS – User Access Simulation Lab
 
-This project simulates a small business network setup where users are divided into groups based on job roles (Dev, Finance, General Staff). It demonstrates the creation of users, application of strict password policies, and the enforcement of access control using Synology NAS.
+This project simulates a small business network setup where users are divided into groups based on their job roles — such as Development, Finance, and General Staff. My goal with this lab was to demonstrate user and group management, implement secure password policies, and enforce the Principle of Least Privilege when configuring access to shared folders on a Synology NAS. It also served as hands-on practice for me to become more familiar with real-world NAS setup and administration tasks.
 
 ---
 
-## 📌 Overview
+## 🔍 Overview
 
 This simulation replicates how a system administrator would:
 - Manage users across different departments.
@@ -19,12 +19,13 @@ This simulation replicates how a system administrator would:
 - Practice setting up and organizing **users and groups** using Synology DSM.
 - Configure **password rules** (complexity, length, exclusions).
 - Test file access with restricted permissions per group.
-- Strengthen understanding of **real-world system admin tasks**.
+- Get hands-on experience with real-world system administration tasks and become more familiar with user policy management and access control processes.
 
 ---
 
 ## 👤 User and Group Setup
 
+In this simulation lab, I created three different users, each assigned to their own group to represent different roles within an organization. I also use a main admin account for both this lab and my personal NAS access.
 **Users:**
 - `DevUser`
 - `FinanceUser`
@@ -39,8 +40,8 @@ This simulation replicates how a system administrator would:
 - `kailinc` (admin)
 
 📷 Screenshots:
-- ![Users](./screenshots/Users.png)
-- ![Groups](./screenshots/Groups.png)
+![Users](./screenshots/Users.png)
+![Groups](./screenshots/Groups.png)
 
 ---
 
@@ -52,8 +53,8 @@ This simulation replicates how a system administrator would:
 - Cannot include the user's name or description
 
 📷 Screenshots:
-- ![PasswordSettings](./screenshots/PasswordSettings.png)
-- ![TestUsers_Pass](./screenshots/TestUsers_Pass.png)
+![PasswordSettings](./screenshots/PasswordSettings.png)
+![TestUsers_Pass](./screenshots/TestUsers_Pass.png)
 
 ---
 
@@ -65,17 +66,20 @@ This simulation replicates how a system administrator would:
 | `FinanceUser` | `Finance` | `PublicFolder`, `FinanceFolder`| Access limited to finance-related data|
 | `DevUser`     | `Dev`     | `PublicFolder`, `DevFolder`    | No access to Finance folder           |
 
-📷 Screenshots:
-- ![RegularUser_login](./screenshots/RegularUser_login.png)
-- ![FinanceUser_login](./screenshots/FinanceUser_login.png)
-- ![DevUser_login](./screenshots/DevUser_login.png)
-
 🎥 Video Walkthroughs:
-- [`RegularUser_Access.mp4`](./video/RegularUser_Access.mp4)
+- General Staff User Folder Access
+
+https://github.com/user-attachments/assets/efd73783-7f67-4bc9-8ed7-a2b992ae486f
+
+- Finance User Folder Access
+
+https://github.com/user-attachments/assets/9e257319-ac77-4cc8-bf45-9eabc6ab3def
+
+- Dev User Folder Access
+
+https://github.com/user-attachments/assets/7cb5c6f3-b050-496d-9e77-29a85c857909
 
 
-
-https://github.com/user-attachments/assets/1475a83f-af78-4604-8d3c-5d21cbfd2a5a
 
 
 ---
