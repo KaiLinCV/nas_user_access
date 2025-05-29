@@ -72,8 +72,11 @@ This simulation replicates how a system administrator would:
 
 🎥 Video Walkthroughs:
 - [`RegularUser_Access.mp4`](./video/RegularUser_Access.mp4)
-- [`FinanceUser_Access.mp4`](./video/FinanceUser_Access.mp4)
-- [`DevUser_Access.mp4`](./video/DevUser_Access.mp4)
+
+
+
+https://github.com/user-attachments/assets/1475a83f-af78-4604-8d3c-5d21cbfd2a5a
+
 
 ---
 
