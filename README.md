@@ -42,7 +42,9 @@ In this simulation lab, I created three different users, each assigned to their 
 - `kailinc` (admin)
 
 📷 Screenshots:
+
 ![Users](./screenshots/Users.png)
+
 ![Groups](./screenshots/Groups.png)
 
 ---
@@ -55,7 +57,9 @@ In this simulation lab, I created three different users, each assigned to their 
 - Cannot include the user's name or description
 
 📷 Screenshots:
+
 ![PasswordSettings](./screenshots/PasswordSettings.png)
+
 ![TestUsers_Pass](./screenshots/TestUsers_Pass.png)
 
 ---

@@ -44,7 +44,9 @@
 - `kailinc` (admin)
 
 📷 截圖:
+
 ![Users](./screenshots/Users.png)
+
 ![Groups](./screenshots/Groups.png)
 
 ---
@@ -57,7 +59,9 @@
 - 不得包含使用者名稱或描述欄中的文字
 
 📷 截圖:
+
 ![PasswordSettings](./screenshots/PasswordSettings.png)
+
 ![TestUsers_Pass](./screenshots/TestUsers_Pass.png)
 
 ---
