@@ -1,3 +1,5 @@
+📘 [English](README.md) | 📙 [中文](README_zh.md)
+
 # 💽 Synology NAS – User Access Simulation Lab
 
 This project simulates a small business network setup where users are divided into groups based on their job roles — such as Development, Finance, and General Staff. My goal with this lab was to demonstrate user and group management, implement secure password policies, and enforce the Principle of Least Privilege when configuring access to shared folders on a Synology NAS. It also served as hands-on practice for me to become more familiar with real-world NAS setup and administration tasks.
@@ -6,7 +8,7 @@ This project simulates a small business network setup where users are divided in
 
 ## 🔍 Overview
 
-This simulation replicates how a system administrator would:
+The following are the steps and concepts I used to replicate what a system administrator would do:
 - Manage users across different departments.
 - Apply the **Principle of Least Privilege** to folder access.
 - Protect admin-only folders (e.g., `MyStorage`, `Workspace`).
@@ -64,7 +66,7 @@ In this simulation lab, I created three different users, each assigned to their 
 |---------------|-----------|--------------------------------|----------------------------------------|
 | `RegularUser` | `users`   | `PublicFolder` only            | No access to Dev or Finance folders   |
 | `FinanceUser` | `Finance` | `PublicFolder`, `FinanceFolder`| Access limited to finance-related data|
-| `DevUser`     | `Dev`     | `PublicFolder`, `DevFolder`    | No access to Finance folder           |
+| `DevUser`     | `Dev`     | `PublicFolder`, `DevFolder`    | Access limited to dev-related data    |
 
 🎥 Video Walkthroughs:
 - General Staff User Folder Access
